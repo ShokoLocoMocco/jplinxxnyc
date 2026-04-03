@@ -1,0 +1,54 @@
+
+:root {
+  --font-Anton: 'Anton', sans-serif;
+  --font-Epilogue: 'Epilogue', sans-serif;
+  --font-Oswald: 'Oswald', sans-serif;
+  --font-Poppins: 'Poppins', sans-serif;
+  --font-Elite: 'Special Elite', cursive;
+  --font-Yanone: 'Yanone Kaffeesatz', sans-serif;
+  --font-Bangers: 'Bangers', cursive;
+  --font-Segoe: 'Segoe UI', Tahoma, Verdana, Geneva, sans-serif;
+  --font-Courier: 'Courier New', Courier, monospace;
+  --font-Cinzel: 'Cinzel', serif;
+  --font-Belanosima: "Belanosima", sans-serif;
+
+
+ --color-latte-lt-blu: #91D4E5;
+ --color-latte-nvy: #104373;
+ --color-latte-ylw: #FFDD9B;
+ --color-latte-dk-pur: #4B2E83;
+ --color-latte-lt-pur: #e2c9d8;
+ --color-latte-pk: #D490BF;
+ --color-latte-lt-bg: #c2e0d8;
+
+
+}
+
+
+* {
+    box-sizing: border-box;
+    -moz-box-sizing: border-box; /* Firexfox */
+    -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+}
+
+
+html, body {
+   margin: 0; /* Ensure no default margin affects the layout */
+   padding: 0;
+   height: 100%;
+   /*overflow: hidden; x Prevent scrolling */
+   overflow-x: hidden; 
+   background-color: var(--color-latte-lt-pur);
+}
+
+.container {
+  width: 80%;
+}
+
+
+/* to prevent elements from extending beyond the viewport */
+img {
+   max-width: 100%;
+   height: auto;
+   display: block; 
+}
